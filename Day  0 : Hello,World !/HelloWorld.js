@@ -5,6 +5,7 @@
 *	Parameter:
 *   parameterVariable - A string of text.
 **/
+
 function greeting(parameterVariable) {
     // This line prints 'Hello, World!' to the console:
     console.log('Hello, World!');
@@ -12,7 +13,6 @@ function greeting(parameterVariable) {
     // Write a line of code that prints parameterVariable to stdout using console.log:
     console.log(parameterVariable);
 }
-
 
 function main() {
     const parameterVariable = readLine();
